@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DoubleMatrixLib:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbdc2482-2a04-4161-8ec1-4ac3dd78a1b7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vsca/doublematrix/lib/LUDecomposition.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/vsca/doublematrix/lib/DoubleMatrix.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="6" column="102" lean-forward="true" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
+              <folding>
+                <element signature="n#!!block;n#invoke#0;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#invoke#1;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#invoke#2;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#rand#0;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#rand#1;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#eye#0;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#get#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#set#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#set#1;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#times#1;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#plus#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#transpose#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#clearRow#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#clearColumn#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#clearRowColumn#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#rightDiagonal#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#determinant#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#inverse#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#copy#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#forEachRowColumn#0;n#!!block;n#DoubleMatrix#0" />
+                <element signature="n#!!block;n#toString#0;n#!!block;n#DoubleMatrix#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vsca/doublematrix/lib/MatrixLib.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!block;n#joinLaterally#0;n#!!block;n#Companion#0;n#!!block;n#MatrixLib#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.kt" />
+        <option value="$PROJECT_DIR$/src/lib/DoubleMatrix.kt" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/vsca/doublematrix/lib/LUDecomposition.kt" />
+        <option value="$PROJECT_DIR$/src/vsca/doublematrix/lib/Lixo.kt" />
+        <option value="$PROJECT_DIR$/src/vsca/doublematrix/lib/MatrixLib.kt" />
+        <option value="$PROJECT_DIR$/src/vsca/doublematrix/lib/extensions.kt" />
+        <option value="$PROJECT_DIR$/src/vsca/doublematrix/lib/DoubleMatrix.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="y" value="17" />
+    <option name="width" value="783" />
+    <option name="height" value="693" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DoubleMatrixLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleMatrixLib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoubleMatrixLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleMatrixLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoubleMatrixLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubleMatrixLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StructAnalisys/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="vsca.doublematrix.lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.vsca.doublematrix.lib.DoubleMatrixKt">
+    <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="DoubleMatrixLib" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsca.doublematrix.lib.DoubleMatrixKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="DoubleMatrixLib" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="vsca.doublematrix.lib.DoubleMatrixKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsca.doublematrix.lib.LixoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="DoubleMatrixLib" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="vsca.doublematrix.lib.LixoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.vsca.doublematrix.lib.DoubleMatrixKt" />
+        <item itemvalue="Kotlin.vsca.doublematrix.lib.LixoKt" />
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48225805" visible="true" weight="0.22547585" />
+      <window_info id="Structure" order="1" sideWeight="0.5177419" side_tool="true" visible="true" weight="0.22547585" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5252525" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5241935" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50073206" side_tool="true" weight="0.32580644" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49926794" weight="0.65967745" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49311927" visible="true" weight="0.22547585" />
+      <window_info id="Structure" order="1" sideWeight="0.50688076" side_tool="true" visible="true" weight="0.22547585" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29677418" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45645162" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50073206" side_tool="true" weight="0.32580644" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49926794" weight="0.65967745" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.kt" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Any.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Progs/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="1040" column="25" selection-start-line="1040" selection-start-column="25" selection-end-line="1040" selection-end-column="25" />
+          <folding>
+            <element signature="e#40811#40812#0" expanded="true" />
+            <element signature="e#40839#40840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vsca/doublematrix/lib/Lixo.kt" />
+    <entry file="file://$PROJECT_DIR$/src/vsca/doublematrix/lib/LUDecomposition.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vsca/doublematrix/lib/MatrixLib.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#joinLaterally#0;n#!!block;n#Companion#0;n#!!block;n#MatrixLib#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vsca/doublematrix/lib/extensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vsca/doublematrix/lib/DoubleMatrix.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="6" column="102" lean-forward="true" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
+          <folding>
+            <element signature="n#!!block;n#invoke#0;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#invoke#1;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#invoke#2;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#rand#0;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#rand#1;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#eye#0;n#!!block;n#Companion#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#get#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#set#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#set#1;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#times#1;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#plus#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#transpose#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#clearRow#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#clearColumn#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#clearRowColumn#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#rightDiagonal#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#determinant#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#inverse#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#copy#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#forEachRowColumn#0;n#!!block;n#DoubleMatrix#0" />
+            <element signature="n#!!block;n#toString#0;n#!!block;n#DoubleMatrix#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>DoubleMatrixLib:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DoubleMatrixLib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
