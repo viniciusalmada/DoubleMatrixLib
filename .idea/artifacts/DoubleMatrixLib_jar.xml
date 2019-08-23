@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="DoubleMatrixLib:jar">
-    <output-path>$PROJECT_DIR$/../StructAnalisys/lib</output-path>
-    <root id="archive" name="DoubleMatrixLib.jar">
-      <element id="module-output" name="DoubleMatrixLib" />
-      <element id="module-source" name="DoubleMatrixLib" />
-    </root>
-  </artifact>
-</component>
