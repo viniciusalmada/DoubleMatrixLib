@@ -28,11 +28,12 @@ class DoubleMatrix private constructor(val rows: Int, val cols: Int, var matrix:
             return matrix
         }
 
-        fun rand(rows: Int, cols: Int): DoubleMatrix {
-            return DoubleMatrix(
+        fun rand(rows: Int, cols: Int = rows): DoubleMatrix {
+            val dm = DoubleMatrix(
                 rows,
                 cols,
                 Array(rows) { DoubleArray(cols) { Random.nextDouble(-1.0, 1.0) * 10 } })
+            return dm
         }
 
         fun rand(): DoubleMatrix {
@@ -63,6 +64,11 @@ class DoubleMatrix private constructor(val rows: Int, val cols: Int, var matrix:
 
     operator fun set(x: Int, y: Int, t: Double): Double {
         matrix[x][y] = t
+        return t
+    }
+
+    operator fun set(x: Int, y: Int, t:Int): Int {
+        matrix[x][y] = t.toDouble()
         return t
     }
 
@@ -213,7 +219,7 @@ class DoubleMatrix private constructor(val rows: Int, val cols: Int, var matrix:
         for (i in 0 until rows) {
             out.append("[")
             for (j in 0 until cols) {
-                val value = "%.4f".format(Locale.ENGLISH, matrix[i][j])
+                val value = "%.6f".format(Locale.ENGLISH, matrix[i][j])
                 out.append("$value\t")
             }
             out.append("\b]\n")

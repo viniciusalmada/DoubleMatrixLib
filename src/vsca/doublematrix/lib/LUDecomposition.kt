@@ -28,12 +28,12 @@ class LUDecomposition(matrix: DoubleMatrix) {
 
     private fun sumU(L: DoubleMatrix, U: DoubleMatrix, i: Int, j: Int): Double {
         var res = 0.0
-        if (i < 1) return res
+        return if (i < 1) res
         else {
             for (n in 0 until i) {
                 res += L[i, n] * U[n, j]
             }
-            return res
+            res
         }
     }
 
