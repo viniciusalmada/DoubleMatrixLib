@@ -1,0 +1,11 @@
+/.idea
+~$*
+*.dwg
+*.xlsx
+*.docx
+*lixo.json
+*trash.kt
+/out
+/lib
+/auxiliar
+*.iml
