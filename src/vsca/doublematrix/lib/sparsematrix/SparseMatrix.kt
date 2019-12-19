@@ -239,26 +239,3 @@ class SparseMatrix private constructor(val rows: Int, val cols: Int) {
         }
     }
 }
-
-//lateinit var timing: Timing
-
-fun main() {
-    val mK = SparseMatrix(3)
-    mK[0, 0] = 270836.1054
-    mK[0, 1] = 45445.9011
-    mK[0, 2] = 46081.8570
-    mK[1, 0] = 45445.9011
-    mK[1, 1] = 521085.2896
-    mK[1, 2] = -8961.2380
-    mK[2, 0] = 46081.8570
-    mK[2, 1] = -8961.2380
-    mK[2, 2] = 152752.0314
-
-    val mF = SparseMatrix(3, 1)
-    mF[0, 0] = 50
-    mF[1, 0] = -80
-    mF[2, 0] = 20
-
-    val d = MatrixLib.solveSystem(mK, mF)*100
-    println(d)
-}

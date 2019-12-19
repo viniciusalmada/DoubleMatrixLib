@@ -3,7 +3,6 @@ package vsca.doublematrix.lib
 import java.util.*
 import kotlin.random.Random
 
-@Suppress("MemberVisibilityCanBePrivate")
 class DoubleMatrix private constructor(val rows: Int, val cols: Int, var matrix: Array<DoubleArray>) {
 
     companion object {
@@ -200,6 +199,13 @@ class DoubleMatrix private constructor(val rows: Int, val cols: Int, var matrix:
         return copy
     }
 
+    fun toDoubleArray(): DoubleArray {
+        if (this.cols != 1) throw RuntimeException("This matrix is not a vector")
+        val convertedArray = DoubleArray(this.rows)
+        this.forEachRowColumn { row, _, value -> convertedArray[row] = value }
+        return convertedArray
+    }
+
     inline fun forEachRowColumn(block: (Int, Int, Double) -> Unit) {
         var r = 0
         var c = 0
@@ -227,10 +233,3 @@ class DoubleMatrix private constructor(val rows: Int, val cols: Int, var matrix:
         return out.toString()
     }
 }
-/*
-
-fun main() {
-    val a = DoubleMatrix.rand(3,3)
-    println(a)
-    println(a - a)
-}*/

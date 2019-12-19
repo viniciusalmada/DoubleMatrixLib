@@ -6,12 +6,26 @@ import vsca.doublematrix.lib.sparsematrix.SparseMatrix
 class MatrixLib {
     companion object {
 
-        @Deprecated("")
         fun solveSystem(a: DoubleMatrix, b: DoubleMatrix): DoubleMatrix {
             val lu = LUDecomposition(a)
             val d = DoubleMatrix(a.rows, 1)
             d.forEachRowColumn { i, _, _ ->
                 d[i, 0] = b[i, 0] - sumLD(lu.L, d, i)
+            }
+
+            val x = DoubleMatrix(a.rows, 1)
+            x.forEachRowColumn { row, _, _ ->
+                val i = x.rows - row - 1
+                x[i, 0] = d[i, 0] / lu.U[i, i] - sumUX(lu.U, x, i)
+            }
+            return x
+        }
+
+        fun solveSystem(a: DoubleMatrix, b: DoubleArray): DoubleMatrix {
+            val lu = LUDecomposition(a)
+            val d = DoubleMatrix(a.rows, 1)
+            d.forEachRowColumn { i, _, _ ->
+                d[i, 0] = b[i] - sumLD(lu.L, d, i)
             }
 
             val x = DoubleMatrix(a.rows, 1)
